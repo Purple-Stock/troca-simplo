@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
-gem 'rails', '~> 6.1.7', '>= 6.1.7.1'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 # Use Puma as the app server
@@ -61,7 +61,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'geared_pagination'
 gem 'platform_agent'
-gem 'ransack'
+gem 'ransack', '>= 3.1.0'
 gem 'spreadsheet_architect'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
